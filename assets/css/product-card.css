@@ -1,0 +1,63 @@
+/* RULES */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "", sans-serif;
+}
+
+/* UTILITY */
+
+/* HEADER */
+
+/* MAIN */
+main {
+  padding: 25px;
+}
+.card {
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  background-color: #fbf7e3;
+  border-radius: 70px;
+  overflow: hidden;
+  color: #612406;
+}
+.card img {
+  height: 300px;
+  object-fit: cover;
+}
+.subtitle {
+  width: 100%;
+  margin-block: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-evenly;
+
+  text-align: center;
+}
+.subtitle p {
+  font-weight: 500;
+}
+
+.button {
+  margin-bottom: 20px;
+  border: none;
+  background-color: #f3df85;
+  width: 150px;
+  height: 30px;
+  border-radius: 15px;
+  cursor: pointer;
+  color: #612406;
+  font-weight: 500;
+}
+.button:hover {
+  box-shadow: 0px 0px 10px -3px rgba(0, 0, 0, 0.5);
+  font-weight: 800;
+}
+/* FOOTER */
