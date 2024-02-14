@@ -12,13 +12,12 @@
 }
 
 .img-cont {
-  width: 40%;
 }
 
 .img-cont img {
   width: 100%;
-  padding: 25px;
   object-fit: cover;
+  padding: 25px;
 }
 
 .text-art {
@@ -29,23 +28,17 @@
 }
 
 .text-art h2 {
-  margin-top: 25px;
   padding-block: 25px;
 }
 
 .text-art p {
-  padding-right: 25px;
 }
 
-@media screen and (max-width: 768px) {
-  .card {
-  }
-
+@media screen and (min-width: 576px) and (max-width: 768px) {
   .artcl {
     flex-direction: column-reverse;
   }
   .text-art {
-    padding-right: 0;
-    padding-inline: 50px;
+    padding: 25px;
   }
 }
