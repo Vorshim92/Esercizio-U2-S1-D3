@@ -1,21 +1,5 @@
-/* RULES */
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "", sans-serif;
-}
+/* ARTICLES */
 
-/* UTILITY */
-
-/* HEADER */
-
-/* MAIN */
-main {
-  padding: 25px;
-}
 .artcl {
   width: 100%;
   display: flex;
@@ -26,9 +10,11 @@ main {
   overflow: hidden;
   color: #612406;
 }
+
 .img-cont {
-  width: 100%;
+  width: 40%;
 }
+
 .img-cont img {
   width: 100%;
   padding: 25px;
@@ -41,15 +27,20 @@ main {
   align-self: stretch;
   overflow: auto;
 }
+
 .text-art h2 {
   margin-top: 25px;
   padding-block: 25px;
 }
+
 .text-art p {
   padding-right: 25px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
+  .card {
+  }
+
   .artcl {
     flex-direction: column-reverse;
   }
@@ -58,4 +49,3 @@ main {
     padding-inline: 50px;
   }
 }
-/* FOOTER */
